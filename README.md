@@ -1,4 +1,4 @@
-# zf2-error-handler
+# zf2-error-manager
 **Simple Error Manager for Zend Framework 2**
 
 <img src="screenshot.png?raw=true" />
