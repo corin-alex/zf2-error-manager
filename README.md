@@ -1,5 +1,5 @@
 # ZF2 Error Manager 1.1
-**Simple Error Manager for Zend Framework 2**<br><br>
+**Simple Error Manager for Zend Framework 2**<br>
 _This simple module will handle all errors for your project._<br>
 _Exceptions and Warnings will be handled by Zend and PHP_
 
@@ -11,7 +11,13 @@ _Exceptions and Warnings will be handled by Zend and PHP_
 
 ## Install
 * Copy ErrorManager folder inside your Module folder
-* Add ErrorManager to application.config.php module list
+* To Enable the module, add ErrorManager to application.config.php module list
+```php
+'modules' => array(
+    'ErrorManager',
+    ...
+),
+```
 
 ## License
 MIT - (c) 2017 Corin Alexandru
