@@ -18,9 +18,7 @@ class Module implements BootstrapListenerInterface
 {
     public function onBootstrap(EventInterface $e)
     {
-        if (PHP_SAPI === 'cli') {
-            return;
-        }
+        if (PHP_SAPI === 'cli') return;
 
         $sm = $e->getApplication()->getEventManager()->getSharedManager();
         $sm->attach('*', MvcEvent::EVENT_DISPATCH_ERROR, array($this, 'handleError'));
@@ -82,7 +80,7 @@ class Module implements BootstrapListenerInterface
      * @param array $args Error args list
      * @return void
      */
-    private function errListArgs($args)
+    private function errListArgs(array $args)
     {
         echo "<ul>";
         foreach ($args as $arg) {
