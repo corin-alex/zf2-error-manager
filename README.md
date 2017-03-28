@@ -1,6 +1,8 @@
 # zf2-error-handler
 **Simple Error Manager for Zend Framework 2**
 
+<img src="screenshot.png?raw=true" />
+
 ## Compatibilty
 Zend Framework 2.5.x
 
