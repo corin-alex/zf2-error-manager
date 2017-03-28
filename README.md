@@ -1,7 +1,7 @@
 # ZF2 Error Manager 1.1
 **Simple Error Manager for Zend Framework 2**<br><br>
 _This simple module will handle all errors for your project._<br>
-_Exceptions and Warnings and  will be handled by Zend and PHP_
+_Exceptions and Warnings will be handled by Zend and PHP_
 
 <img src="screenshot.png?raw=true" />
 
